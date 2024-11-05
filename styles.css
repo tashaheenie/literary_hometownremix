@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #26362c;
+    background-color: #aab9aa;
+}
+
+.hero {
+    padding: 1rem;
+    height: 12.5rem;
+    background-image: url("images/GSM.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.literary  {
+    padding: 0.75rem;
+    background:#aab9aa;
+    border-top: 0.25rem solid #26362c;
+}
+
+.literary-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-around;
+}
+
+.literary-content {
+    min-width: 20rem;
+    max-width: 32rem;
+    width: calc(50% - 1.25rem);;
+}
+
+.terrestrial  {
+    padding-bottom: 45px;
+    background: linear-gradient(#aab9aa, #151f17);
+}
+
+.card  {
+    margin: 0 auto;
+    min-width: 20rem;
+    max-width: 40rem;
+    padding: 0.75rem;
+    background: #7b7e8d;
+    border-radius: 4%;
+    border: 0.25rem solid #26362c;
+    box-shadow: 0.02rem -0.02rem #2b1414;
+}
+
+.imgdetail {
+    text-align: center;
+    padding: 0.6rem;
+}
+
+img {
+    width: 15em;
+    border-radius: 50%;
+    border: 0.15rem solid #26362c;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #26362c ;
+    text-shadow: 1px 1px 2px #ddedff;
+    font-size: 2.5rem;
+
+}
+
+h3 {
+    color: #26362c ;
+    text-shadow: 1px 1px 2px #ddedff;
+    font-size: 2.5rem;
+
+}
+
+h2, h4 {
+    margin-top: 0.1em;
+    font-family: "Patrick Hand", cursive;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    color: #ffe6cc;
+    text-shadow: 1px 1px 2px #040f24;
+}
+
+.SrcRef {
+    font-size: 0.75rem;
+}
